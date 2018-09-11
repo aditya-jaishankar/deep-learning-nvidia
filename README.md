@@ -26,7 +26,8 @@ Fill in the syllabus here so I don't forget
   - http://www.midasjournal.org/browse/publication/658
   - http://www.cardiacatlas.org/studies/sunnybrook-cardiac-data/
   - https://www.kaggle.com/c/second-annual-data-science-bowl
-* [kaggle second annualdata science bowl - deep learning tutprial]
 * The basic idea is that you have *tensors* that *flow* through a certain set of matrix operations. SO you need to be able to express your problem as a tensor and then define what operations you want to do on your tensors.
 * When you build the graph you must specify each so-called Variable (in TensorFlow lexicon). Specifying a piece of data as a Variable tells TensorFlow that it will be a parameter to be "learned", i.e., it is a weight that will be updated as the training proceeds.
 * Once the variables and architecture are set up, you set up a session, where you do the computations - the actual flow of tensors through the operations.
+* `TensorBoard` API lets you visualize the flow of tensors as a graph. There is other information here and worth exploring
+* Deep Learning Specialization seems pretty good (Andrew Ng on Coursera)
